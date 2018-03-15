@@ -18,7 +18,6 @@ Route::group(['middleware' => ['web']], function () {
         return view('welcome');
     });
 
-
     Route::get('/home', function () {
         return view('login');
     });
